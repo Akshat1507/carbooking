@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@drawable/wave" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="1100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/tabea_schimpf_o7wzqmeyoqc_unspla" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/aaron_huber_8qye6lghw_c_unsplash" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/car_3" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/car_4" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/car_5" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

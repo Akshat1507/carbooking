@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "749636865346",
+    "project_id": "car-booking-7f2f4",
+    "storage_bucket": "car-booking-7f2f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749636865346:android:0ae1587035f78f9d690cdb",
+        "android_client_info": {
+          "package_name": "com.example.carbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749636865346-od0ptijb8ugoi193vhf080f30degsevs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYAb4hD8Ardi1UShD86UoojkLAG1brRdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749636865346-od0ptijb8ugoi193vhf080f30degsevs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
